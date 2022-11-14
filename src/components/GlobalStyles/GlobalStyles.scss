@@ -2,21 +2,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,400;1,100;1,400&display=swap');
 
 :root {
-    --primary: #189AB4;
+    --Navy_Blue: #05445e;
+    --Blue_Grotto: #189ab4;
+    --Blue_Green: #75e6da;
+    --Baby_Blue: #d4f1f4;
+    --white: #fff;
+    --black: #000;;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
     font-size: 62.5%;
     color: #000;
     font-weight: 1000;
-    // background-color: var(--primary);
+    background-color: var(--Baby_Blue);
 }
-h2 {
-    // font-family: 'Pacifico', cursive;
 
-}
 body {
+    position: relative;
     font-family: 'Roboto', sans-serif;
     font-size: 3.6rem;
     line-height: 1.5;
+}
+
+a,
+button,
+input,
+[tabindex] {
+    color: var(--text-color);
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
 }

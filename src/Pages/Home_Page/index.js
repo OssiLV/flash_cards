@@ -1,5 +1,5 @@
 function Home_Page() {
-    return <h2>Home_Page</h2>;
+    return <div className="Home_Page"></div>;
 }
 
 export default Home_Page;

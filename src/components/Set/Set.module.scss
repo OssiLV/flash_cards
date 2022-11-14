@@ -1,0 +1,24 @@
+.set {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-set {
+    input {
+      border: 1px solid black; 
+      margin-right: 10px;
+      height: 20px;
+      border-radius: 8px;
+      padding: 16px;
+    } 
+}
+
+.input-option {
+    display: flex;
+    align-items: center;
+
+    p {
+        padding: 5px;
+        font-size: 1.6rem;
+    }
+}

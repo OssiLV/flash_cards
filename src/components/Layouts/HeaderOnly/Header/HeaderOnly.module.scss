@@ -1,0 +1,109 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--Blue_Grotto);
+    font-size: 1.6rem;
+    width: 100%;
+    height: 44px;
+    color: var(--Blue_Green);
+
+    button {
+        background-color: var(--Navy_Blue);
+    }
+
+    .home {
+        font-family: 'Pacifico', cursive;
+        font-size: 2rem;
+        padding: 6px;
+        margin-left: 10px;
+        color: var(--white);
+    
+        &:hover {
+            cursor: pointer;
+            color: var(--Blue_Green);
+        }
+    }
+    
+
+    .setting {
+        .remove {
+            width: 120px;
+            text-transform: uppercase;
+            margin-right: 10px;
+            padding: 6px;
+            border-radius: 6px;
+            color: var(--white);
+    
+            &:hover {
+                cursor: pointer;
+                opacity: 0.9;
+            }
+    
+            .icon-remove {
+                margin-right: 6px;
+                // border: none;
+                color: var(--Blue_Green);
+            }
+        }
+    
+        .add {
+            width: 100px;
+            padding: 6px;
+            border-radius: 6px;
+            color: var(--white);
+    
+            &:hover {
+                cursor: pointer;
+                opacity: 0.9;
+            }
+    
+            .icon-add {
+                margin-right: 6px;
+                color: var(--Blue_Green);
+            }
+        }
+    }
+
+        
+    .storage {
+        margin-right: 10px;
+
+        .save {
+            margin-right: 10px;
+            padding: 6px;
+            border-radius: 6px;
+            color: var(--white);
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.9;
+            }
+
+            .icon-save {
+                margin-right: 6px;
+                color: var(--Blue_Green);
+            }
+        }
+
+        .download {
+            padding: 6px;
+            border-radius: 6px;
+            color: var(--white);
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.9;
+            }
+
+            .icon-download {
+                margin-right: 6px;
+                color: var(--Blue_Green);
+            }
+        }
+    }
+
+}
+
+
+

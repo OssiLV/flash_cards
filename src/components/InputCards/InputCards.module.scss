@@ -1,0 +1,45 @@
+.input-cards {
+    height: 125px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: var(--Navy_Blue);
+}
+
+.trash {
+    display: flex;
+
+    margin: 8px;
+    margin-bottom: 14px;
+
+    .trash-btn {
+        background-color: transparent;
+        &:hover {
+            color: var(--Blue_Grotto);
+            cursor: pointer;
+        }
+    }
+
+    .icon-trash {
+        font-size: 2rem;
+    }
+}
+
+
+
+.input-term {
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    input {
+        width: 50%;
+        height: 50px;
+        margin-right: 10px;
+        border-radius: 8px;
+        padding: 6px;
+
+        font-size: 1.6rem;
+    }
+}

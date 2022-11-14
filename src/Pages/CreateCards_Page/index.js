@@ -1,5 +1,5 @@
 function CreateCards_Page() {
-    return <h2>CreateCards_Page</h2>;
+    return;
 }
 
 export default CreateCards_Page;

@@ -4,12 +4,14 @@
     border: 1px solid black;
     border-radius: 8px;
     background-color: var(--Navy_Blue);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
 }
 
 .trash {
     display: flex;
 
     margin: 8px;
+    margin-left: 10px;
     margin-bottom: 14px;
 
     .trash-btn {
@@ -25,21 +27,25 @@
     }
 }
 
-
-
 .input-term {
     margin: 8px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
     input {
         width: 50%;
         height: 50px;
-        margin-right: 10px;
-        border-radius: 8px;
-        padding: 6px;
-
         font-size: 1.6rem;
+        border-radius: 8px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 6px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
     }
+}
+
+.cut {
+    color: var(--Baby_Blue);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
 }

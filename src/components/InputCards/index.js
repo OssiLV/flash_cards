@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faGripLinesVertical, faTrash } from '@fortawesome/free-solid-svg-icons';
 import styles from './InputCards.module.scss';
 
 const cx = classNames.bind(styles);
@@ -16,6 +16,7 @@ function InputCards() {
 
             <div className={cx('input-term')}>
                 <input placeholder="Term" />
+                <FontAwesomeIcon className={cx('cut')} icon={faGripLinesVertical} />
                 <input />
             </div>
         </div>

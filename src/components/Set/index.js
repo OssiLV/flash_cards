@@ -11,7 +11,7 @@ function Set({ children }) {
                 <input placeholder="Name" />
                 <input placeholder="Description" />
                 <div className={cx('input-option')}>
-                    <input type="checkbox"/>
+                    <input type="checkbox" />
                     <p>Multiple Answers</p>
                 </div>
             </div>

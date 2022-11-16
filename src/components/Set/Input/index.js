@@ -4,6 +4,7 @@ import styles from './Input.module.scss';
 import Set from '..';
 import InputCards from '~/components/InputCards';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 const cx = classNames.bind(styles);
 
 function Input() {
@@ -20,7 +21,7 @@ function Input() {
             <InputCards />
             <div className={cx('addcards')}>
                 <FontAwesomeIcon className={cx('icon-plus')} icon={faPlus} />
-                ADD CARDS
+                <Link to="/cards-added">ADD CARDS</Link>
             </div>
         </div>
     );
